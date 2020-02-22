@@ -36,8 +36,8 @@ export class ImageUpload extends Component {
         return (
             <div>
                 <h1>my component</h1>
-                <button onClick={this.getFetch}>Fetch</button>
-                <button onClick={this.getAxios}>Axios</button>
+                <button onClick={this.getFetch}>get with Fetch</button>
+                <button onClick={this.getAxios}>get with Axios</button>
                 {/* 
 
                     copied from
